@@ -1,0 +1,36 @@
+uuid: 2ffd503f-68cf-44cd-9701-b2de448d62df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.photo.field_description
+    - field.field.node.photo.field_image
+    - node.type.photo
+  module:
+    - image
+    - user
+id: node.photo.default
+targetEntityType: node
+bundle: photo
+mode: default
+content:
+  field_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

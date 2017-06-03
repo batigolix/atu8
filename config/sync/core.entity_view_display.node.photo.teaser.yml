@@ -1,0 +1,22 @@
+uuid: 4cce4346-6e9f-4bae-95cf-91a64ff1024a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photo.field_description
+    - field.field.node.photo.field_image
+    - node.type.photo
+  module:
+    - user
+id: node.photo.teaser
+targetEntityType: node
+bundle: photo
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_image: true

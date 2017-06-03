@@ -1,0 +1,14 @@
+uuid: 5318a85c-55a1-4457-9ade-c00cc2592f70
+name: 'Appartement in Utrecht te huur'
+mail: appartement.te.utrecht@gmail.com
+slogan: 'Licht, recent gerenoveerd driekamerappartement van ca. 80m2 te huur in de Rivierenbuurt'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
