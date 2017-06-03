@@ -1,0 +1,5 @@
+name: atu8_tools
+type: module
+description: Custom code for Appartment utrecht site
+core: 8.x
+package: Custom

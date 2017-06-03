@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains atu8_tools.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function atu8_tools_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the atu8_tools module.
+        case 'help.page.atu8_tools':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Custom code for Appartment utrecht site') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
+function atu8_tools_theme($existing, $type, $theme, $path)
+{
+    return [
+        'slider_item' => [
+            'variables' => [
+                'large_uri' => NULL,
+                'thumbnail_uri' => NULL,
+            ],
+        ],
+    ];
+}

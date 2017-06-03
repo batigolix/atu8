@@ -2,17 +2,26 @@ global-styling:
   version: 1.x
   css:
     theme:
-      stylesheets/ie.css: {}
-      stylesheets/screen.css: {}
-      stylesheets/print.css: { media: print }
-      "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,900|Crimson+Text:400,700": {}
-
+      css/skel.css: {}
+      css/style.css: {}
+      css/style-wide.css: {}
+  js:
+    js/jquery.dropotron.min.js: {}
+    js/skel.min.js: {}
+    js/skel-layers.min.js: {}
+    js/init.js: {}
+  dependencies:
+    - core/jquery
 lightslider:
   version: 1.1.6
   css:
     component:
       /libraries/lightslider/dist/css/lightslider.min.css: {}
   js:
+      js/dollard-lightslider.js: {}
       /libraries/lightslider/dist/js/lightslider.min.js: {}
   dependencies:
     - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
