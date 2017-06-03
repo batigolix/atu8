@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbfda008b527180e63e636be11079464",
+    "content-hash": "1c10180659fe1d303bec07687b257c09",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3849,6 +3849,17 @@
                 "shell"
             ],
             "time": "2017-05-17T06:49:19+00:00"
+        },
+        {
+            "name": "sachinchoolur/lightslider",
+            "version": "1.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sachinchoolur/lightslider/archive/1.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
         },
         {
             "name": "squizlabs/php_codesniffer",
