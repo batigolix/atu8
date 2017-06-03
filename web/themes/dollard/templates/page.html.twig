@@ -60,29 +60,14 @@
       {{ page.header }}
     </div>
     <nav id="nav">
-      <ul>
-        <li class="active"><a href="index.html">Homepage</a></li>
-        <li><a href="left-sidebar.html">Left Sidebar</a></li>
-        <li><a href="right-sidebar.html">Right Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li>
-      </ul>
+      {{ page.primary_menu }}
     </nav>
   </div>
   <!-- Header -->
 
   <!-- Page -->
   <div id="page" class="container">
-    <section>
-      <header class="major">
-        <h2>No Sidebar</h2>
-        <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-      </header>
-
       {{ page.content }}
-
-
-
-    </section>
   </div>
   <!-- /Page -->
 
@@ -99,40 +84,6 @@
       </div>
     {% endif %}
 
-
-
-    <section>
-      <header class="major">
-        <h2>Mauris vulputate dolor</h2>
-        <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-      </header>
-      <form method="post" action="#">
-        <div class="row half">
-          <div class="12u">
-            <input class="text" type="text" name="name" id="name" placeholder="Name" />
-          </div>
-        </div>
-        <div class="row half">
-          <div class="12u">
-            <input class="text" type="text" name="email" id="email" placeholder="Email" />
-          </div>
-        </div>
-        <div class="row half">
-          <div class="12u">
-            <textarea name="message" id="message" placeholder="Message"></textarea>
-          </div>
-        </div>
-        <div class="row half">
-          <div class="12u">
-            <ul class="actions">
-              <li>
-                <input type="submit" value="Send Message" class="button alt" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </form>
-    </section>
   </div>
 </div>
 <!-- /Footer -->
@@ -154,11 +105,6 @@
     {{ page.pre_main }}
 
     <main role="main">
-
-      {{ page.primary_menu }}
-      {{ page.secondary_menu }}
-
-      {{ page.help }}
 
       <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 

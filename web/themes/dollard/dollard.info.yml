@@ -16,8 +16,6 @@ conditional-stylesheets:
 regions:
   header: Header
   primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  help: Help
   content: Content
   footer: 'Footer'
   pre_main: 'Pre main'

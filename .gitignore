@@ -24,3 +24,7 @@
 
 .sass-cache
 *.css.map
+
+bin
+
+.DS_Store

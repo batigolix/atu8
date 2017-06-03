@@ -48,7 +48,8 @@
     "drupal/fieldblock": "2.0-alpha1",
     "drupal/coder": "8.2.5",
     "drupal/drupal-extension": "~3.0",
-    "sachinchoolur/lightslider": "1.1.6"
+    "sachinchoolur/lightslider": "1.1.6",
+    "drupal/contact_block": "1.4"
   },
   "require-dev": {
     "behat/mink": "~1.7",

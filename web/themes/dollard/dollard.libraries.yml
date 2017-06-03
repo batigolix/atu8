@@ -5,6 +5,7 @@ global-styling:
       css/skel.css: {}
       css/style.css: {}
       css/style-wide.css: {}
+      css/custom.css: {}
   js:
     js/jquery.dropotron.min.js: {}
     js/skel.min.js: {}
