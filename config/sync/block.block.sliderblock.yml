@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - atu8_tools
+    - system
   theme:
     - dollard
 id: sliderblock
@@ -17,4 +18,9 @@ settings:
   label: 'Slider block'
   provider: atu8_tools
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

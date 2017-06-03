@@ -8,6 +8,7 @@ module:
   color: 0
   config: 0
   contact: 0
+  contact_block: 0
   contextual: 0
   ctools: 0
   datetime: 0
