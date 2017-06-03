@@ -1,0 +1,10 @@
+uuid: 6a5b72f9-d015-472f-b39f-7de7a7413b22
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.slider_item
+label: 'Slider item'
+targetEntityType: node
+cache: true

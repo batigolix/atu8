@@ -1,0 +1,22 @@
+uuid: 2743e7ef-bddc-438c-8e39-3f8fda8619d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dollard
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: dollard_breadcrumbs
+theme: dollard
+region: content
+weight: -1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

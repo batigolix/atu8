@@ -1,0 +1,30 @@
+uuid: 7af80606-0347-4c33-8573-6013137460e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slider_item
+    - field.field.node.photo.field_description
+    - field.field.node.photo.field_image
+    - image.style.max_1300x1300
+    - node.type.photo
+  module:
+    - image
+    - user
+id: node.photo.slider_item
+targetEntityType: node
+bundle: photo
+mode: slider_item
+content:
+  field_image:
+    weight: 0
+    label: inline
+    settings:
+      image_style: max_1300x1300
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_description: true
+  links: true

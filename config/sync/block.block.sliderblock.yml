@@ -1,0 +1,20 @@
+uuid: db7445f1-21bd-49b0-bd66-2f24f2e3b414
+langcode: en
+status: true
+dependencies:
+  module:
+    - atu8_tools
+  theme:
+    - dollard
+id: sliderblock
+theme: dollard
+region: content
+weight: -3
+provider: null
+plugin: slider_block
+settings:
+  id: slider_block
+  label: 'Slider block'
+  provider: atu8_tools
+  label_display: '0'
+visibility: {  }

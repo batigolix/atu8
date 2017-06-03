@@ -1,0 +1,20 @@
+uuid: c07fb842-b160-4f80-85ae-6946c4b5e1f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - atu8_tools
+  theme:
+    - dollard
+id: creditsblock
+theme: dollard
+region: copyright
+weight: 0
+provider: null
+plugin: credits_block
+settings:
+  id: credits_block
+  label: 'Credits block'
+  provider: atu8_tools
+  label_display: '0'
+visibility: {  }

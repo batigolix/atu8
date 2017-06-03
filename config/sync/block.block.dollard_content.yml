@@ -1,0 +1,22 @@
+uuid: e30fcab7-76e7-4555-a6dd-742fa2058fcc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dollard
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dollard_content
+theme: dollard
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
