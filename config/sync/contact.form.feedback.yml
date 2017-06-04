@@ -8,6 +8,8 @@ id: feedback
 label: 'Website feedback'
 recipients:
   - appartement.te.utrecht@gmail.com
+  - bdoesborg@gmail.com
+  - alogman@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

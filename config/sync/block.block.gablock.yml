@@ -1,0 +1,20 @@
+uuid: a4eea3f2-93e5-43b4-a7cb-958beb04a15c
+langcode: en
+status: true
+dependencies:
+  module:
+    - atu8_tools
+  theme:
+    - drupal8_zymphonies_theme
+id: gablock
+theme: drupal8_zymphonies_theme
+region: footer_menu
+weight: 0
+provider: null
+plugin: ga_block
+settings:
+  id: ga_block
+  label: 'Ga block'
+  provider: atu8_tools
+  label_display: '0'
+visibility: {  }

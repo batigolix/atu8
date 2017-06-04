@@ -11,3 +11,7 @@ lightslider:
     - core/jquery.once
     - core/drupal
     - core/drupalSettings
+ga:
+  version: 1.x
+  js:
+    js/ga.js: {}
