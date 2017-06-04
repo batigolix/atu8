@@ -1,0 +1,22 @@
+uuid: 10023730-3cc8-47b0-8be3-631ef35a23e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: medium_square_240x240_
+label: 'Medium square (240x240)'
+effects:
+  8e6e66e0-513e-4ace-9d95-9853ea067ac4:
+    uuid: 8e6e66e0-513e-4ace-9d95-9853ea067ac4
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 240
+      height: 240
+  00279929-2697-43c7-950e-e4482a72377a:
+    uuid: 00279929-2697-43c7-950e-e4482a72377a
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

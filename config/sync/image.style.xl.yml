@@ -5,7 +5,7 @@ dependencies:
   module:
     - image_effects
 name: xl
-label: 'XL (1024 x)'
+label: 'XL (1024 x 1024)'
 effects:
   bae2cd55-e66b-442c-9dc1-7e470c3efdab:
     uuid: bae2cd55-e66b-442c-9dc1-7e470c3efdab
@@ -13,7 +13,7 @@ effects:
     weight: -9
     data:
       width: 1024
-      height: null
+      height: 1024
       upscale: false
   82136541-51ee-421f-ab9c-ee8ae6125bbf:
     uuid: 82136541-51ee-421f-ab9c-ee8ae6125bbf

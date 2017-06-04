@@ -6,17 +6,25 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.photo.field_description
     - field.field.node.photo.field_image
+    - image.style.medium_square_240x240_
     - node.type.photo
   module:
+    - image
     - user
 id: node.photo.teaser
 targetEntityType: node
 bundle: photo
 mode: teaser
 content:
-  links:
-    weight: 100
+  field_image:
+    type: image
+    weight: 0
     region: content
+    label: hidden
+    settings:
+      image_style: medium_square_240x240_
+      image_link: content
+    third_party_settings: {  }
 hidden:
   field_description: true
-  field_image: true
+  links: true
