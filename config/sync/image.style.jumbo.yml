@@ -1,14 +1,22 @@
 uuid: 9a4cf350-863f-4f50-b99b-f770a3659b17
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - image_effects
 name: jumbo
 label: Jumbo
 effects:
   dc4434cf-1419-481f-8918-3ef87ffd3317:
     uuid: dc4434cf-1419-481f-8918-3ef87ffd3317
     id: image_scale_and_crop
-    weight: 1
+    weight: -9
     data:
       width: 1024
       height: 600
+  b115c49a-e718-4d99-a837-a22524be2440:
+    uuid: b115c49a-e718-4d99-a837-a22524be2440
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true
