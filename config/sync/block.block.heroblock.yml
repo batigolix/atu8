@@ -1,0 +1,20 @@
+uuid: aa626cf1-8436-4f2b-a658-06d5f722e49d
+langcode: en
+status: true
+dependencies:
+  module:
+    - atu8_tools
+  theme:
+    - drupal8_zymphonies_theme
+id: heroblock
+theme: drupal8_zymphonies_theme
+region: welcome_banner_text
+weight: 0
+provider: null
+plugin: hero_block
+settings:
+  id: hero_block
+  label: 'Hero block'
+  provider: atu8_tools
+  label_display: '0'
+visibility: {  }

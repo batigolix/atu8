@@ -40,6 +40,7 @@ class SliderBlock extends BlockBase {
                 ];
             }
         }
+        $build['#attached']['library'][] = 'atu8_tools/lightslider';
         return $build;
     }
 }

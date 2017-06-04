@@ -1,0 +1,13 @@
+lightslider:
+  version: 1.1.6
+  css:
+    component:
+      /libraries/lightslider/dist/css/lightslider.min.css: {}
+  js:
+      js/atu8_tools-lightslider.js: {}
+      /libraries/lightslider/dist/js/lightslider.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

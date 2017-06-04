@@ -1,0 +1,20 @@
+uuid: fcd961c1-2621-4d82-8885-6e2351e1e3c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - atu8_tools
+  theme:
+    - drupal8_zymphonies_theme
+id: sliderblock_2
+theme: drupal8_zymphonies_theme
+region: topwidget_second
+weight: 0
+provider: null
+plugin: slider_block
+settings:
+  id: slider_block
+  label: 'Slider block'
+  provider: atu8_tools
+  label_display: '0'
+visibility: {  }
