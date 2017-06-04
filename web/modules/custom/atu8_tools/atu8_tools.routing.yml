@@ -1,0 +1,8 @@
+
+atu8_tools.homepage_controller_build:
+  path: '/homepage'
+  defaults:
+    _controller: '\Drupal\atu8_tools\Controller\HomepageController::build'
+    _title: 'Homepage controller'
+  requirements:
+    _permission: 'access content'
