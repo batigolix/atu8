@@ -1,0 +1,19 @@
+uuid: 15542511-ff5c-4cd5-84ca-cbae8a47ebce
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_telefoonnummer
+id: contact_message.feedback.field_telefoonnummer
+field_name: field_telefoonnummer
+entity_type: contact_message
+bundle: feedback
+label: Telefoonnummer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
