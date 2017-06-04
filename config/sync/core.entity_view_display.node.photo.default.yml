@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.photo.field_description
     - field.field.node.photo.field_image
-    - image.style.jumbo
+    - image.style.xl
     - node.type.photo
   module:
     - image
@@ -26,7 +26,7 @@ content:
     weight: 102
     label: hidden
     settings:
-      image_style: jumbo
+      image_style: xl
       image_link: ''
     third_party_settings: {  }
     type: image

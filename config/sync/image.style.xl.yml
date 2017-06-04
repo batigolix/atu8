@@ -1,0 +1,23 @@
+uuid: 04f17ac0-5885-4796-b1b0-bd8a143436b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: xl
+label: 'XL (1024 x)'
+effects:
+  bae2cd55-e66b-442c-9dc1-7e470c3efdab:
+    uuid: bae2cd55-e66b-442c-9dc1-7e470c3efdab
+    id: image_scale
+    weight: -9
+    data:
+      width: 1024
+      height: null
+      upscale: false
+  82136541-51ee-421f-ab9c-ee8ae6125bbf:
+    uuid: 82136541-51ee-421f-ab9c-ee8ae6125bbf
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true
